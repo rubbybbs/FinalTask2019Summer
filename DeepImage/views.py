@@ -1,3 +1,4 @@
+from django.contrib.auth.hashers import make_password
 from django.shortcuts import render
 
 # Create your views here.
@@ -36,7 +37,7 @@ def register_view(request):
                 try:
                     u = User.objects.get(username=form.cleaned_data['username'])
                 except User.DoesNotExist:
-                    u = User(username=form.cleaned_data['username'], password=form.cleaned_data['password'])
+                    u = User(username=form.cleaned_data['username'], password=make_password(form.cleaned_data['password']))
                     u.save()
                     return HttpResponse('success')
                 else:
