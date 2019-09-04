@@ -7,6 +7,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
 from .forms import LoginForm, RegisterForm
+from .image import process
 
 
 def login_view(request):
@@ -17,7 +18,6 @@ def login_view(request):
                                 password=form.cleaned_data['password'])
             if user is not None:
                 login(request, user)
-                #return HttpResponseRedirect('/thanks/')
                 return HttpResponse('success')
             else:
                 form.errors['password'] = '用户名或密码不正确'
@@ -49,3 +49,9 @@ def register_view(request):
 
 def logout_view(request):
     logout(request)
+
+
+def upload_view(request):
+    pass
+
+
