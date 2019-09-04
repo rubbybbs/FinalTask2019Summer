@@ -8,4 +8,5 @@ urlpatterns = [
 
     path('register', views.register_view, name='register'),
 
+    path('upload', views.BasicUploadView.as_view(), name='basic_upload')
 ]

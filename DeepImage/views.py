@@ -9,6 +9,10 @@ from django.contrib.auth.models import User
 from .forms import LoginForm, RegisterForm
 from .image import process
 
+from .forms import PhotoForm
+from .models import Photo
+from django.http import JsonResponse
+from django.views import View
 
 def login_view(request):
     if request.method == 'POST':
@@ -18,7 +22,7 @@ def login_view(request):
                                 password=form.cleaned_data['password'])
             if user is not None:
                 login(request, user)
-                return HttpResponse('success')
+                return HttpResponseRedirect('/DeepImage/upload')
             else:
                 form.errors['password'] = '用户名或密码不正确'
     else:
@@ -39,7 +43,7 @@ def register_view(request):
                 except User.DoesNotExist:
                     u = User(username=form.cleaned_data['username'], password=make_password(form.cleaned_data['password']))
                     u.save()
-                    return HttpResponse('success')
+                    return HttpResponseRedirect('/DeepImage/login')
                 else:
                     form.errors['username'] = '用户名已被使用'
     else:
@@ -49,6 +53,21 @@ def register_view(request):
 
 def logout_view(request):
     logout(request)
+
+
+class BasicUploadView(View):
+    def get(self, request):
+        photos_list = Photo.objects.all()
+        return render(self.request, 'index.html', {'photos': photos_list})
+
+    def post(self, request):
+        form = PhotoForm(self.request.POST, self.request.FILES)
+        if form.is_valid():
+            photo = form.save()
+            data = {'is_valid': True, 'name': photo.file.name, 'url': photo.file.url}
+        else:
+            data = {'is_valid': False}
+        return JsonResponse(data)
 
 
 def upload_view(request):

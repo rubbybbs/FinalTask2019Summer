@@ -1,5 +1,13 @@
 from django import forms
 
+from .models import Photo
+
+
+class PhotoForm(forms.ModelForm):
+    class Meta:
+        model = Photo
+        fields = ('file', )
+
 
 class LoginForm(forms.Form):
     username = forms.CharField(label='用户名', max_length=100)

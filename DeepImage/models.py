@@ -8,3 +8,9 @@ from django.db import models
 class Record(models.Model):
     id = models.AutoField(primary_key=True)
     time = models.BigIntegerField()
+
+
+class Photo(models.Model):
+    title = models.CharField(max_length=255, blank=True)
+    file = models.ImageField(upload_to='')
+    uploaded_at = models.DateTimeField(auto_now_add=True)
