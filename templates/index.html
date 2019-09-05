@@ -28,15 +28,12 @@
   <table id="gallery" class="table table-bordered">
     <thead>
       <tr>
-        <th>Photo</th>
+        <th>Original</th>
+          <th>Processed</th>
       </tr>
     </thead>
+
     <tbody>
-      {% for photo in photos %}
-        <tr>
-          <td><a href="{{ photo.file.url }}">{{ photo.file.name }}</a></td>
-        </tr>
-      {% endfor %}
     </tbody>
   </table>
 {% endblock %}

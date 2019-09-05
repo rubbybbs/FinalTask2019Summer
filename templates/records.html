@@ -1,10 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% load static %}
+
+{% block javascript %}
+  {# JQUERY FILE UPLOAD SCRIPTS #}
+  <script src="{% static 'js/jquery-file-upload/vendor/jquery.ui.widget.js' %}"></script>
+  <script src="{% static 'js/jquery-file-upload/jquery.iframe-transport.js' %}"></script>
+  <script src="{% static 'js/jquery-file-upload/jquery.fileupload.js' %}"></script>
+
+  {# PHOTOS PAGE SCRIPTS #}
+  <script src="{% static '/js/basic-upload.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+{#  <div style="margin-bottom: 20px;">#}
+{#    <input id="fileupload" type="file" name="file" multiple#}
+{#           style="display: none;"#}
+{#           data-url="{% url 'basic_upload' %}"#}
+{#           data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>#}
+{#  </div>#}
+
+  <table id="gallery" class="table table-bordered">
+    <thead>
+      <tr>
+          <th>ID</th>
+        <th>Original</th>
+          <th>Processed</th>
+          <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for rcd in records %}
+        <tr>
+        <td>{{ rcd.id }}</td>
+          <td><img src="{{ rcd.original_url }}" style='max-width: 400px; max-height: 400px;'></td>
+          <td><img src="{{ rcd.processed_url }}" style='max-width: 400px; max-height: 400px;'></td>
+          <td>{{rcd.time}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

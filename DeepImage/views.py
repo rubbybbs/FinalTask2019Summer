@@ -1,18 +1,14 @@
 from django.contrib.auth.hashers import make_password
-from django.shortcuts import render
-
-# Create your views here.
 from django.contrib.auth import authenticate, login, logout
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponseRedirect, HttpResponse, JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from .forms import LoginForm, RegisterForm
+from .forms import LoginForm, RegisterForm, PhotoForm
 from .image import process
-
-from .forms import PhotoForm
-from .models import Photo
-from django.http import JsonResponse
+from .models import Photo, Record
 from django.views import View
+import time
+
 
 def login_view(request):
     if request.method == 'POST':
@@ -41,7 +37,8 @@ def register_view(request):
                 try:
                     u = User.objects.get(username=form.cleaned_data['username'])
                 except User.DoesNotExist:
-                    u = User(username=form.cleaned_data['username'], password=make_password(form.cleaned_data['password']))
+                    u = User(username=form.cleaned_data['username'],
+                             password=make_password(form.cleaned_data['password']))
                     u.save()
                     return HttpResponseRedirect('/DeepImage/login')
                 else:
@@ -53,9 +50,16 @@ def register_view(request):
 
 def logout_view(request):
     logout(request)
+    return HttpResponseRedirect('login')
 
 
-class BasicUploadView(View):
+def records_view(request):
+    if request.method == 'GET':
+        records = Record.objects.all()
+        return render(request, 'records.html', {'records': records})
+
+
+class upload_view(View):
     def get(self, request):
         photos_list = Photo.objects.all()
         return render(self.request, 'index.html', {'photos': photos_list})
@@ -64,13 +68,16 @@ class BasicUploadView(View):
         form = PhotoForm(self.request.POST, self.request.FILES)
         if form.is_valid():
             photo = form.save()
-            data = {'is_valid': True, 'name': photo.file.name, 'url': photo.file.url}
+            output_url = 'static/media/out' + photo.file.name
+            process(photo.file.url, output_url)
+
+            ts = int(time.time())
+            dt = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
+            rcd = Record(original_url=photo.file.url, processed_url=output_url, time=dt)
+            rcd.save()
+
+            data = {'is_valid': True, 'name': photo.file.name,
+                    'url': photo.file.url, 'output_url': output_url}
         else:
             data = {'is_valid': False}
         return JsonResponse(data)
-
-
-def upload_view(request):
-    pass
-
-

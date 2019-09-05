@@ -14,14 +14,12 @@
 {#        <li{% if '/photos/' in request.path %} class="active"{% endif %}>#}
           <li>
           <a href="{% url 'basic_upload' %}">Upload</a>
-
         </li>
           <li>
-          <a href="{% url 'basic_upload' %}">Records</a>
-
+          <a href="{% url 'records' %}">Records</a>
         </li>
           <li>
-          <a href="{% url 'basic_upload' %}">Logout</a>
+          <a href="{% url 'logout' %}">Logout</a>
 
         </li>
       </ul>

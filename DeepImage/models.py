@@ -7,7 +7,9 @@ from django.db import models
 
 class Record(models.Model):
     id = models.AutoField(primary_key=True)
-    time = models.BigIntegerField()
+    time = models.CharField(max_length=100, default='')
+    original_url = models.CharField(max_length=100, default='')
+    processed_url = models.CharField(max_length=100, default='')
 
 
 class Photo(models.Model):
