@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepImage/migrations/0004_auto_20190905_1239.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepImage/migrations/0005_auto_20190905_1428.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/1-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/1-2_u2A2MrU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/12_uUNuxVK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/5-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/5-2_l95mgrl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_1-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_1-2_u2A2MrU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_12_uUNuxVK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out_5-2_l95mgrl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FinalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalTask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/basic-upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/1.5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/input/1.5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/input/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/input/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/input/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/input/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/input/4_LngC5rL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media/timg_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/records.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +108,8 @@
       <workItem from="1567605570432" duration="232000" />
       <workItem from="1567607106363" duration="763000" />
       <workItem from="1567609438742" duration="29566000" />
+      <workItem from="1567675834864" duration="45000" />
+      <workItem from="1567675882154" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="DeepImage created">
       <created>1567498647103</created>
