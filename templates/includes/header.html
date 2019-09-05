@@ -13,15 +13,15 @@
       <ul class="nav navbar-nav">
 {#        <li{% if '/photos/' in request.path %} class="active"{% endif %}>#}
           <li>
-          <a href="{% url 'basic_upload' %}">Upload</a>
+          <a href="{% url 'upload' %}">Upload</a>
         </li>
           <li>
           <a href="{% url 'records' %}">Records</a>
         </li>
           <li>
           <a href="{% url 'logout' %}">Logout</a>
+          </li>
 
-        </li>
       </ul>
     </div>
   </div>

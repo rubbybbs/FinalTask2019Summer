@@ -11,8 +11,10 @@ urlpatterns = [
 
     path('logout', views.logout_view, name='logout'),
 
-    path('rocords', views.records_view, name='records'),
+    path('records', views.records_view, name='records'),
 
-    path('upload', views.upload_view.as_view(), name='basic_upload'),
+    path('upload', views.upload_view, name='upload'),
+
+    path('delete', views.delete_view, name='delete'),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -13,14 +13,15 @@
 {% endblock %}
 
 {% block content %}
-    <form class="form" action="{% url 'delete' %}" method="get">
-    <button type="submit" name="page" value="{{ records.number }}" class="btn btn-primary">
-       批量删除
+    <form class="form" action="{% url 'delete' %}" method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-primary">
+       确认删除
     </button>
-    </form>
   <table id="gallery" class="table table-bordered">
     <thead>
       <tr>
+          <th>Choose</th>
           <th>ID</th>
         <th>Original</th>
           <th>Processed1</th>
@@ -32,6 +33,7 @@
 
       {% for rcd in records %}
         <tr>
+        <td><input type="checkbox" name="record" value={{ rcd.id }}> </td>
         <td>{{ forloop.counter }}</td>
           <td><img src="{{ rcd.original_url }}" style='max-width: 150px; max-height: 100px;'></td>
           <td><img src="{{ rcd.processed_url1 }}" style='max-width: 150px; max-height: 100px;'></td>
@@ -39,24 +41,9 @@
           <td>{{rcd.time}}</td>
         </tr>
       {% endfor %}
+    </form>
 
-<div class="pagination">
-    <span class="step-links">
-        {% if records.has_previous %}
-            <a href="?page=1">&laquo; first</a>
-            <a href="?page={{ records.previous_page_number }}">previous</a>
-        {% endif %}
 
-        <span class="current">
-            Page {{ records.number }} of {{ records.paginator.num_pages }}.
-        </span>
-
-        {% if records.has_next %}
-            <a href="?page={{ records.next_page_number }}">next       </a>
-            <a href="?page={{ records.paginator.num_pages }}"> last &raquo;</a>
-        {% endif %}
-    </span>
-</div>
     </tbody>
   </table>
 {% endblock %}

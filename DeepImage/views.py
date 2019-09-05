@@ -1,16 +1,19 @@
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth import authenticate, login, logout
+from django.core.paginator import Paginator
 from django.http import HttpResponseRedirect, HttpResponse, JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
 from .forms import LoginForm, RegisterForm, PhotoForm
 from .image import process
-from .models import Photo, Record
-from django.views import View
+from .models import Record
 import time
 
 
 def login_view(request):
+    if request.user.is_authenticated:
+        return HttpResponseRedirect('/DeepImage/upload')
+
     if request.method == 'POST':
         form = LoginForm(request.POST)
         if form.is_valid():
@@ -50,34 +53,71 @@ def register_view(request):
 
 def logout_view(request):
     logout(request)
-    return HttpResponseRedirect('login')
+    return HttpResponseRedirect('/DeepImage/login')
 
 
 def records_view(request):
+    if not request.user.is_authenticated:
+        return HttpResponseRedirect('/DeepImage/login')
     if request.method == 'GET':
-        records = Record.objects.all()
-        return render(request, 'records.html', {'records': records})
+        records = Record.objects.filter(username=request.user.username)
+        records_ = list(reversed(records))
+        paginator = Paginator(records_, 3)
+        page = request.GET.get('page')
+        if page is None:
+            page = 1
+        records_ = paginator.get_page(page)
+        return render(request, 'records.html', {'records': records_})
 
 
-class upload_view(View):
-    def get(self, request):
-        photos_list = Photo.objects.all()
-        return render(self.request, 'index.html', {'photos': photos_list})
+def upload_view(request):
+    if not request.user.is_authenticated:
+        return HttpResponseRedirect('/DeepImage/login')
 
-    def post(self, request):
-        form = PhotoForm(self.request.POST, self.request.FILES)
+    if request.method == 'GET':
+        return render(request, 'index.html')
+
+    elif request.method == 'POST':
+        form = PhotoForm(request.POST, request.FILES)
         if form.is_valid():
             photo = form.save()
-            output_url = 'static/media/out' + photo.file.name
-            process(photo.file.url, output_url)
+            output_url1 = 'static/media/out1_' + photo.file.name
+            output_url2 = 'static/media/out2_' + photo.file.name
+            process(photo.file.url, output_url1, output_url2)
 
             ts = int(time.time())
             dt = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
-            rcd = Record(original_url=photo.file.url, processed_url=output_url, time=dt)
+            rcd = Record(username=request.user.username, original_url=photo.file.url,
+                         processed_url1=output_url1, processed_url2=output_url2, time=dt)
             rcd.save()
 
-            data = {'is_valid': True, 'name': photo.file.name,
-                    'url': photo.file.url, 'output_url': output_url}
+            data = {'is_valid': True, 'name': photo.file.name,'url': photo.file.url,
+                    'output_url1': output_url1, 'output_url2': output_url2}
         else:
             data = {'is_valid': False}
         return JsonResponse(data)
+
+
+def delete_view(request):
+    if not request.user.is_authenticated:
+        return HttpResponseRedirect('/DeepImage/login')
+
+    records = Record.objects.filter(username=request.user.username)
+    records_ = list(reversed(records))
+    paginator = Paginator(records_, 3)
+    page = request.GET.get('page')
+    if page is None:
+        page = 1
+    records_ = paginator.get_page(page)
+
+    if request.method == 'GET':
+        return render(request, 'delete.html', {'records': records_})
+
+    if request.method == 'POST':
+
+        del_list = request.POST.getlist('record')
+        print(del_list)
+        for rcd in records_:
+            if str(rcd.id) in del_list:
+                rcd.delete()
+        return HttpResponseRedirect('/DeepImage/records')
