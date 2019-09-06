@@ -41,9 +41,10 @@
           <td>{{rcd.time}}</td>
         </tr>
       {% endfor %}
-    </form>
 
-
+      <input name="from" value="{{ from }}" style="display: none">
+        <input name="from" value="{{ to }}" style="display: none">
     </tbody>
   </table>
+     </form>
 {% endblock %}

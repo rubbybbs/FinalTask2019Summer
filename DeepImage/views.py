@@ -9,6 +9,7 @@ from .image import process
 from .models import Record
 import requests
 import time
+import datetime
 
 
 def login_view(request):
@@ -57,18 +58,43 @@ def logout_view(request):
     return HttpResponseRedirect('/DeepImage/login')
 
 
+def str2datetime(st):
+    return datetime.datetime.strptime(st, "%Y-%m-%d")
+
+
 def records_view(request):
     if not request.user.is_authenticated:
         return HttpResponseRedirect('/DeepImage/login')
     if request.method == 'GET':
         records = Record.objects.filter(username=request.user.username)
+        from_date = datetime.datetime.strptime('2000-1-1', "%Y-%m-%d")
+        to_date = datetime.datetime.strptime('2100-12-31', "%Y-%m-%d")
+        if request.GET.get('from') is not None and request.GET.get('to') is not None:
+            try:
+                from_date = datetime.datetime.strptime(request.GET.get('from'), "%Y-%m-%d")
+            except ValueError:
+                pass
+
+            try:
+                to_date = datetime.datetime.strptime(request.GET.get('to'), "%Y-%m-%d")
+            except ValueError:
+                pass
+
+        records = [rcd for rcd in records if from_date <=
+                        datetime.datetime.strptime(rcd.time.split(' ')[0], "%Y-%m-%d") <= to_date]
+
+        from_date = from_date.strftime('%Y-%m-%d')
+        to_date = to_date.strftime('%Y-%m-%d')
+
         records_ = list(reversed(records))
         paginator = Paginator(records_, 3)
         page = request.GET.get('page')
         if page is None:
             page = 1
         records_ = paginator.get_page(page)
-        return render(request, 'records.html', {'records': records_})
+        print(from_date, to_date)
+        return render(request, 'records.html', {'records': records_, 'page': page,
+                                                'from': from_date, 'to': to_date})
 
 
 def upload_view(request):
@@ -92,11 +118,11 @@ def upload_view(request):
                 ts = int(time.time())
                 dt = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
                 rcd = Record(username=request.user.username, original_url=photo.file.url,
-                         processed_url1=output_url1, processed_url2=output_url2, time=dt)
+                             processed_url1=output_url1, processed_url2=output_url2, time=dt)
                 rcd.save()
 
-                data = {'is_valid': True,  'url': photo.file.url,
-                      'output_url1': output_url1, 'output_url2': output_url2}
+                data = {'is_valid': True, 'url': photo.file.url,
+                        'output_url1': output_url1, 'output_url2': output_url2}
             else:
                 data = {'is_valid': False}
         else:
@@ -118,11 +144,11 @@ def upload_view(request):
                             ts = int(time.time())
                             dt = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
                             rcd = Record(username=request.user.username, original_url=fileurl,
-                                     processed_url1=output_url1, processed_url2=output_url2, time=dt)
+                                         processed_url1=output_url1, processed_url2=output_url2, time=dt)
                             rcd.save()
 
                             data = {'is_valid': True, 'url': fileurl,
-                                'output_url1': output_url1, 'output_url2': output_url2}
+                                    'output_url1': output_url1, 'output_url2': output_url2}
 
                     else:
                         print(res.status_code)
@@ -137,6 +163,24 @@ def delete_view(request):
         return HttpResponseRedirect('/DeepImage/login')
 
     records = Record.objects.filter(username=request.user.username)
+    from_date = datetime.datetime.strptime('2000-1-1', "%Y-%m-%d")
+    to_date = datetime.datetime.strptime('2100-12-31', "%Y-%m-%d")
+    if request.GET.get('from') is not None and request.GET.get('to') is not None:
+        try:
+            from_date = datetime.datetime.strptime(request.GET.get('from'), "%Y-%m-%d")
+        except ValueError:
+            pass
+
+        try:
+            to_date = datetime.datetime.strptime(request.GET.get('to'), "%Y-%m-%d")
+        except ValueError:
+            pass
+
+    records = [rcd for rcd in records if from_date <=
+               datetime.datetime.strptime(rcd.time.split(' ')[0], "%Y-%m-%d") <= to_date]
+
+    from_date = from_date.strftime('%Y-%m-%d')
+    to_date = to_date.strftime('%Y-%m-%d')
     records_ = list(reversed(records))
     paginator = Paginator(records_, 3)
     page = request.GET.get('page')
@@ -145,6 +189,7 @@ def delete_view(request):
     records_ = paginator.get_page(page)
 
     if request.method == 'GET':
+
         return render(request, 'delete.html', {'records': records_})
 
     if request.method == 'POST':

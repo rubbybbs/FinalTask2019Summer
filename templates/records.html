@@ -13,11 +13,30 @@
 {% endblock %}
 
 {% block content %}
-    <form class="form" action="{% url 'delete' %}" method="get">
+    <table>
+ <tr>
+  <td>
+    <form class="form" action="{% url 'delete' %}" method="get" >
+        <input name="from" value="{{ from }}" style="display: none">
+        <input name="to" value="{{ to }}" style="display: none">
     <button type="submit" name="page" value="{{ records.number }}" class="btn btn-primary">
        批量删除
     </button>
+
     </form>
+</td>
+  <td>
+    <form class="form" action="{% url 'records' %}" method="get" style="margin-left: 580px" >
+    从<input type="date" name="from" value="" style="margin-left: 10px; margin-right: 10px">
+        到<input type="date" name="to" value="" style="margin-left: 10px; margin-right: 10px">
+    <button type="submit" name="page"  class="btn btn-primary" style="margin-left: 10px; ">
+       按时间查询
+    </button>
+    </form>
+</td>
+ </tr>
+</table>
+
   <table id="gallery" class="table table-bordered">
     <thead>
       <tr>
@@ -45,8 +64,8 @@
 <div class="pagination">
     <span class="step-links">
         {% if records.has_previous %}
-            <a href="?page=1">&laquo; first</a>
-            <a href="?page={{ records.previous_page_number }}">previous</a>
+            <a href="?from={{ from }}&to={{ to }}&page=1">&laquo; first</a>
+            <a href="?from={{ from }}&to={{ to }}&page={{ records.previous_page_number }}">previous</a>
         {% endif %}
 
         <span class="current">
@@ -54,8 +73,8 @@
         </span>
 
         {% if records.has_next %}
-            <a href="?page={{ records.next_page_number }}">next       </a>
-            <a href="?page={{ records.paginator.num_pages }}"> last &raquo;</a>
+            <a href="?from={{ from }}&to={{ to }}&page={{ records.next_page_number }}">next </a>
+            <a href="?from={{ from }}&to={{ to }}&page={{ records.paginator.num_pages }}"> last &raquo;</a>
         {% endif %}
     </span>
 </div>

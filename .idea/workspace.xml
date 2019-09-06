@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/13_OOFsSxA.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/14_G029Msy.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/1567761393.1569898" afterDir="false" />
@@ -15,35 +14,10 @@
       <change afterPath="$PROJECT_DIR$/static/media/out1_1567761681.3791723" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out1_1567761976.798145" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out1_3_ZPxved1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FinalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalTask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeepImage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/.ipynb_checkpoints/object_detection_tutorial-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/.ipynb_checkpoints/object_detection_tutorial-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/dataset_tools/create_coco_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/dataset_tools/create_coco_tf_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/dataset_tools/create_kitti_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/dataset_tools/create_kitti_tf_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/dataset_tools/create_pascal_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/dataset_tools/create_pascal_tf_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/dataset_tools/create_pet_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/dataset_tools/create_pet_tf_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/export_inference_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/export_inference_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/export_tflite_ssd_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/export_tflite_ssd_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/export_tflite_ssd_graph_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/export_tflite_ssd_graph_lib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/exporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/exporter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/exporter_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/exporter_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/image_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/image_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/metrics/coco_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/metrics/coco_evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/metrics/coco_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/metrics/coco_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/metrics/coco_tools_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/metrics/coco_tools_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/object_detection_tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/object_detection_tutorial.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/export_saved_model_tpu_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/tpu_exporters/export_saved_model_tpu_lib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/utils/config_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/utils/config_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/utils/dataset_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/utils/dataset_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/utils/json_utils_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/utils/json_utils_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/utils/label_map_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/utils/label_map_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/records.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg" beforeDir="false" />
@@ -154,7 +128,7 @@
       <workItem from="1567605570432" duration="232000" />
       <workItem from="1567607106363" duration="763000" />
       <workItem from="1567609438742" duration="29566000" />
-      <workItem from="1567694883726" duration="14151000" />
+      <workItem from="1567694883726" duration="21669000" />
     </task>
     <task id="LOCAL-00001" summary="DeepImage created">
       <created>1567498647103</created>
@@ -177,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567652231589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="url upload added">
+      <created>1567762078615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567762078615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +208,7 @@
     <MESSAGE value="DeepImage created" />
     <MESSAGE value="upload and save image added" />
     <MESSAGE value="upload page and record page added&#10;but not connected with user authentication yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload page and record page added&#10;but not connected with user authentication yet" />
+    <MESSAGE value="url upload added" />
+    <option name="LAST_COMMIT_MESSAGE" value="url upload added" />
   </component>
 </project>
