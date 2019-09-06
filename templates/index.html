@@ -13,9 +13,11 @@
 {% endblock %}
 
 {% block content %}
+
   <div style="margin-bottom: 20px;">
+  <span>
     <button type="button" class="btn btn-primary js-upload-photos">
-      <span class="glyphicon glyphicon-cloud-upload"></span> Upload photos
+      <span class="glyphicon glyphicon-cloud-upload"></span> 从本地上传图片
     </button>
 
 
@@ -23,7 +25,16 @@
            style="display: none;"
            data-url="{% url 'upload' %}"
            data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+
+
+    <input id="fileurl" style="margin-left: 550px; margin-right:10px; width:300px;" value="">
+    <button type="button" class="btn btn-primary js-download-photos">
+      <span class="glyphicon glyphicon-cloud-upload"></span> 从url上传图片
+    </button>
+
+  </span>
   </div>
+
 
   <table id="gallery" class="table table-bordered">
     <thead>

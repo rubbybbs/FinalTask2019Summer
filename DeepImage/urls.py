@@ -5,6 +5,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
 
+    path('redirect', views.redirect_view, name='redirect'),
+
     path('login', views.login_view, name='login'),
 
     path('register', views.register_view, name='register'),

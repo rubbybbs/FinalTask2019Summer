@@ -1,12 +1,13 @@
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth import authenticate, login, logout
 from django.core.paginator import Paginator
-from django.http import HttpResponseRedirect, HttpResponse, JsonResponse
+from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
 from .forms import LoginForm, RegisterForm, PhotoForm
 from .image import process
 from .models import Record
+import requests
 import time
 
 
@@ -78,23 +79,56 @@ def upload_view(request):
         return render(request, 'index.html')
 
     elif request.method == 'POST':
-        form = PhotoForm(request.POST, request.FILES)
-        if form.is_valid():
-            photo = form.save()
-            output_url1 = 'static/media/out1_' + photo.file.name
-            output_url2 = 'static/media/out2_' + photo.file.name
-            process(photo.file.url, output_url1, output_url2)
+        data = {}
+        print(request.content_type)
+        if request.POST.get('fromurl') is None:
+            form = PhotoForm(request.POST, request.FILES)
+            if form.is_valid():
+                photo = form.save()
+                output_url1 = 'static/media/out1_' + photo.file.name
+                output_url2 = 'static/media/out2_' + photo.file.name
+                process(photo.file.url, output_url1, output_url2)
 
-            ts = int(time.time())
-            dt = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
-            rcd = Record(username=request.user.username, original_url=photo.file.url,
+                ts = int(time.time())
+                dt = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
+                rcd = Record(username=request.user.username, original_url=photo.file.url,
                          processed_url1=output_url1, processed_url2=output_url2, time=dt)
-            rcd.save()
+                rcd.save()
 
-            data = {'is_valid': True, 'name': photo.file.name,'url': photo.file.url,
-                    'output_url1': output_url1, 'output_url2': output_url2}
+                data = {'is_valid': True,  'url': photo.file.url,
+                      'output_url1': output_url1, 'output_url2': output_url2}
+            else:
+                data = {'is_valid': False}
         else:
-            data = {'is_valid': False}
+            url = request.POST.get('fileurl')
+            print(url)
+            if url is not None:
+                try:
+                    res = requests.get(url)
+                    if res.status_code == 200:
+                        filename = str(time.time())
+                        fileurl = 'static/media/' + filename
+                        with open(fileurl, 'wb') as fp:
+                            fp.write(res.content)
+                            fp.close()
+                            output_url1 = 'static/media/out1_' + filename
+                            output_url2 = 'static/media/out2_' + filename
+                            process('static/media/' + filename, output_url1, output_url2)
+
+                            ts = int(time.time())
+                            dt = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(ts))
+                            rcd = Record(username=request.user.username, original_url=fileurl,
+                                     processed_url1=output_url1, processed_url2=output_url2, time=dt)
+                            rcd.save()
+
+                            data = {'is_valid': True, 'url': fileurl,
+                                'output_url1': output_url1, 'output_url2': output_url2}
+
+                    else:
+                        print(res.status_code)
+                        data = {'is_valid': False}
+                except Exception as e:
+                    data = {'is_valid': False}
         return JsonResponse(data)
 
 
@@ -114,10 +148,15 @@ def delete_view(request):
         return render(request, 'delete.html', {'records': records_})
 
     if request.method == 'POST':
-
         del_list = request.POST.getlist('record')
         print(del_list)
         for rcd in records_:
             if str(rcd.id) in del_list:
                 rcd.delete()
         return HttpResponseRedirect('/DeepImage/records')
+
+
+def redirect_view(request):
+    if not request.user.is_authenticated:
+        return HttpResponseRedirect('/DeepImage/login')
+    return HttpResponseRedirect('/DeepImage/upload')
