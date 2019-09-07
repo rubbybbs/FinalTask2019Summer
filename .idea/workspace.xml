@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/media/13_OOFsSxA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/14_G029Msy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/1567761393.1569898" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/1567761681.3791723" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/1567761976.798145" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/3_ZPxved1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_13_OOFsSxA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_14_G029Msy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_1567761393.1569898" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_1567761681.3791723" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_1567761976.798145" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_3_ZPxved1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepImage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/records.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-    </list>
+    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +104,7 @@
       <workItem from="1567607106363" duration="763000" />
       <workItem from="1567609438742" duration="29566000" />
       <workItem from="1567694883726" duration="21669000" />
+      <workItem from="1567891478781" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="DeepImage created">
       <created>1567498647103</created>

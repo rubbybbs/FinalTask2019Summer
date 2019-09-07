@@ -66,7 +66,10 @@ def records_view(request):
     if not request.user.is_authenticated:
         return HttpResponseRedirect('/DeepImage/login')
     if request.method == 'GET':
-        records = Record.objects.filter(username=request.user.username)
+        if request.user.is_superuser:
+            records = Record.objects.all()
+        else:
+            records = Record.objects.filter(username=request.user.username)
         from_date = datetime.datetime.strptime('2000-1-1', "%Y-%m-%d")
         to_date = datetime.datetime.strptime('2100-12-31', "%Y-%m-%d")
         if request.GET.get('from') is not None and request.GET.get('to') is not None:
@@ -161,8 +164,10 @@ def upload_view(request):
 def delete_view(request):
     if not request.user.is_authenticated:
         return HttpResponseRedirect('/DeepImage/login')
-
-    records = Record.objects.filter(username=request.user.username)
+    if request.user.is_superuser:
+        records = Record.objects.all()
+    else:
+        records = Record.objects.filter(username=request.user.username)
     from_date = datetime.datetime.strptime('2000-1-1', "%Y-%m-%d")
     to_date = datetime.datetime.strptime('2100-12-31', "%Y-%m-%d")
     if request.GET.get('from') is not None and request.GET.get('to') is not None:
