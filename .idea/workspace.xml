@@ -1,55 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="date filter added">
-      <change afterPath="$PROJECT_DIR$/static/media/1-2_sK0P3FS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/12_Of8jfW4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/13_kL06SZ0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/1567920447_592149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/1567920658_3413808.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/3_lfYWIHF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/4_SUttvX2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/5-2_uNAOWgT.jpg" afterDir="false" />
+    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="bug resolved">
+      <change afterPath="$PROJECT_DIR$/static/media/2_phWpaza.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out1_1-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_1-2_sK0P3FS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_12_Of8jfW4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_13_kL06SZ0.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out1_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_1567920447_592149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_1567920658_3413808.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out1_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_2_phWpaza.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out1_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_3_lfYWIHF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_4_SUttvX2.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out1_5-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_5-2_uNAOWgT.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out2_1-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_1-2_sK0P3FS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_12_Of8jfW4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_13_kL06SZ0.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out2_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_1567920447_592149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_1567920658_3413808.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out2_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_2_phWpaza.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out2_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_3_lfYWIHF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_4_SUttvX2.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/media/out2_5-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_5-2_uNAOWgT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FinalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalTask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeepImage/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeepImage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalTask/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FinalTask/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/upload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/1-2_KN6EyVi.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/1-2_u2A2MrU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1.5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/1.5_TKkpwxK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/12_kEweVLt.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/12_uUNuxVK.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/12_vASPKfw.jpg" beforeDir="false" />
@@ -78,6 +60,7 @@
       <change beforePath="$PROJECT_DIR$/static/media/1_z2jPi7c.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/2_IoZsPTB.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/2_Jt65704.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/3_BjncYU5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/3_O69vT1T.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/3_ZPxved1.jpg" beforeDir="false" />
@@ -179,8 +162,6 @@
       <change beforePath="$PROJECT_DIR$/static/media/批注_2019-06-14_150214.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/records.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -314,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567762078615</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="records deleting bug resolved&#10;username ui added">
+      <created>1567923694874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567923694874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +353,7 @@
     <MESSAGE value="upload and save image added" />
     <MESSAGE value="upload page and record page added&#10;but not connected with user authentication yet" />
     <MESSAGE value="url upload added" />
-    <option name="LAST_COMMIT_MESSAGE" value="url upload added" />
+    <MESSAGE value="records deleting bug resolved&#10;username ui added" />
+    <option name="LAST_COMMIT_MESSAGE" value="records deleting bug resolved&#10;username ui added" />
   </component>
 </project>

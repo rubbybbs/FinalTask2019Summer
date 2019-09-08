@@ -1,5 +1,3 @@
-from PIL import Image
-
 from object_detection import image_process
 from fast_style_transfer import evaluate
 
