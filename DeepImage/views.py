@@ -90,7 +90,7 @@ def records_view(request):
         to_date = to_date.strftime('%Y-%m-%d')
 
         records_ = list(reversed(records))
-        paginator = Paginator(records_, 3)
+        paginator = Paginator(records_, 8)
         page = request.GET.get('page')
         if page is None:
             page = 1
@@ -130,12 +130,11 @@ def upload_view(request):
                 data = {'is_valid': False}
         else:
             url = request.POST.get('fileurl')
-            print(url)
             if url is not None:
                 try:
                     res = requests.get(url)
                     if res.status_code == 200:
-                        filename = str(time.time())
+                        filename = str(time.time()).replace('.','_') + '.' + url.split('.')[-1]
                         fileurl = 'static/media/' + filename
                         with open(fileurl, 'wb') as fp:
                             fp.write(res.content)
@@ -164,10 +163,12 @@ def upload_view(request):
 def delete_view(request):
     if not request.user.is_authenticated:
         return HttpResponseRedirect('/DeepImage/login')
+
     if request.user.is_superuser:
         records = Record.objects.all()
     else:
         records = Record.objects.filter(username=request.user.username)
+
     from_date = datetime.datetime.strptime('2000-1-1', "%Y-%m-%d")
     to_date = datetime.datetime.strptime('2100-12-31', "%Y-%m-%d")
     if request.GET.get('from') is not None and request.GET.get('to') is not None:
@@ -184,23 +185,18 @@ def delete_view(request):
     records = [rcd for rcd in records if from_date <=
                datetime.datetime.strptime(rcd.time.split(' ')[0], "%Y-%m-%d") <= to_date]
 
-    from_date = from_date.strftime('%Y-%m-%d')
-    to_date = to_date.strftime('%Y-%m-%d')
-    records_ = list(reversed(records))
-    paginator = Paginator(records_, 3)
-    page = request.GET.get('page')
-    if page is None:
-        page = 1
-    records_ = paginator.get_page(page)
-
     if request.method == 'GET':
-
+        records_ = list(reversed(records))
+        paginator = Paginator(records_, 8)
+        page = request.GET.get('page')
+        if page is None:
+            page = 1
+        records_ = paginator.get_page(page)
         return render(request, 'delete.html', {'records': records_})
 
     if request.method == 'POST':
         del_list = request.POST.getlist('record')
-        print(del_list)
-        for rcd in records_:
+        for rcd in records:
             if str(rcd.id) in del_list:
                 rcd.delete()
         return HttpResponseRedirect('/DeepImage/records')

@@ -15,7 +15,7 @@
 {% block content %}
     <form class="form" action="{% url 'delete' %}" method="post">
     {% csrf_token %}
-    <button type="submit" class="btn btn-primary">
+    <button type="submit" class="btn btn-primary" style="margin-bottom: 30px">
        确认删除
     </button>
   <table id="gallery" class="table table-bordered">

@@ -1,24 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="加入了第二个神经网络，加入管理员功能">
-      <change afterPath="$PROJECT_DIR$/static/media/11567892098_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/2_7FD6Pd8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/2_8sWSaJU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/2_F8I2w6o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/2_FsmfFkY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/2_HCkxp3q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/2_zvKLjVn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/input_lZQUR4L.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_11567892098_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_input_lZQUR4L.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_11567892098_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_input_lZQUR4L.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FinalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalTask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="date filter added">
+      <change afterPath="$PROJECT_DIR$/static/media/1-2_sK0P3FS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/12_Of8jfW4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/13_kL06SZ0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/1567920447_592149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/1567920658_3413808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/3_lfYWIHF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/4_SUttvX2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/5-2_uNAOWgT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_1-2_sK0P3FS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_12_Of8jfW4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_13_kL06SZ0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_1567920447_592149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_1567920658_3413808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_3_lfYWIHF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_4_SUttvX2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_5-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_5-2_uNAOWgT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_1-2_sK0P3FS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_12_Of8jfW4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_13_kL06SZ0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_1567920447_592149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_1567920658_3413808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_3_lfYWIHF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_4_SUttvX2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_5-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_5-2_uNAOWgT.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalTask/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FinalTask/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/image_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/image_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1-2_KN6EyVi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1-2_u2A2MrU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1.5_TKkpwxK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_kEweVLt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_uUNuxVK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_vASPKfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_x1nxTTQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1387134043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/13_OOFsSxA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/13_TuXRZgB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/13_lUSZtYs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/14_G029Msy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/14_uZjMwkb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1567761393.1569898" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1567761681.3791723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1567761976.798145" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_Pvp0uO2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_jtXqrrN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_sI4sI34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_vgDHxuW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_PGEXeqe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_Rgzg4nj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_VUxNjqS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_mOfD83G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_rC6AEjC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_uJJAKEo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_vyN8Vyc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_z2jPi7c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/2_IoZsPTB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/2_Jt65704.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3_BjncYU5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3_O69vT1T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3_ZPxved1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/496a2498t82ac6df39fc9690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/4_5uX5Zsy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/4_oANBr3l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5-2_E1WZ2bz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5-2_l95mgrl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5_emfKxko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5_ftj44o0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/a2dead214e03b38563b83ea8a1f1fb54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_IXR7nJO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_RY2V9XP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_hhZJh2t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_uzON7E5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image2_0hVSiP1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/input.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/input_pjCSEZD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/item4-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1.5_TKkpwxK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1-2_KN6EyVi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_12_kEweVLt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_12_vASPKfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_12_x1nxTTQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out1_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1387134043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13_OOFsSxA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13_TuXRZgB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13_lUSZtYs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out1_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_14_G029Msy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_14_uZjMwkb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1567761393.1569898" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1567761681.3791723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1567761976.798145" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_Pvp0uO2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_jtXqrrN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_sI4sI34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_vgDHxuW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_3_BjncYU5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_3_O69vT1T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_3_ZPxved1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out1_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_4_5uX5Zsy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_4_oANBr3l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_5-2_E1WZ2bz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_PGEXeqe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_a2dead214e03b38563b83ea8a1f1fb54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image1_hhZJh2t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image1_uzON7E5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image2_0hVSiP1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_input.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_input_pjCSEZD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_item4-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_rC6AEjC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_uJJAKEo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_vyN8Vyc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_z2jPi7c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_1-2_KN6EyVi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_12_kEweVLt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_12_vASPKfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_12_x1nxTTQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out2_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_13_TuXRZgB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_13_lUSZtYs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out2_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_14_uZjMwkb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_1944706447_sI4sI34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_3_BjncYU5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_3_O69vT1T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out2_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_4_5uX5Zsy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_4_oANBr3l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_5-2_E1WZ2bz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_Jt65704.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_input.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_input_pjCSEZD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_item4-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out496a2498t82ac6df39fc9690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out5_emfKxko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out5_ftj44o0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_1-2_u2A2MrU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_12_uUNuxVK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_5-2_l95mgrl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/批注_2019-06-14_150214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/records.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,9 +285,6 @@
       <workItem from="1567609438742" duration="29566000" />
       <workItem from="1567694883726" duration="21669000" />
       <workItem from="1567891478781" duration="9000" />
-      <workItem from="1567891541162" duration="302000" />
-      <workItem from="1567891858762" duration="458000" />
-      <workItem from="1567924553778" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="DeepImage created">
       <created>1567498647103</created>
@@ -155,21 +314,7 @@
       <option name="project" value="LOCAL" />
       <updated>1567762078615</updated>
     </task>
-    <task id="LOCAL-00005" summary="加入了第二个神经网络，加入管理员功能">
-      <created>1567891618994</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1567891618994</updated>
-    </task>
-    <task id="LOCAL-00006" summary="加入了第二个神经网络，加入管理员功能">
-      <created>1567891741427</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1567891741427</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +365,6 @@
     <MESSAGE value="upload and save image added" />
     <MESSAGE value="upload page and record page added&#10;but not connected with user authentication yet" />
     <MESSAGE value="url upload added" />
-    <MESSAGE value="加入了第二个神经网络，加入管理员功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入了第二个神经网络，加入管理员功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="url upload added" />
   </component>
 </project>
