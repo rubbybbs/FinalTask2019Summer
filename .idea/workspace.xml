@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="" />
+    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="加入了第二个神经网络，加入管理员功能">
+      <change afterPath="$PROJECT_DIR$/static/media/11567892098_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/2_7FD6Pd8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/2_8sWSaJU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/2_F8I2w6o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/2_FsmfFkY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/2_HCkxp3q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/2_zvKLjVn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/input_lZQUR4L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_11567892098_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_input_lZQUR4L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_11567892098_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_input_lZQUR4L.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FinalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalTask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/image_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/image_process.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +123,9 @@
       <workItem from="1567609438742" duration="29566000" />
       <workItem from="1567694883726" duration="21669000" />
       <workItem from="1567891478781" duration="9000" />
+      <workItem from="1567891541162" duration="302000" />
+      <workItem from="1567891858762" duration="458000" />
+      <workItem from="1567924553778" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="DeepImage created">
       <created>1567498647103</created>
@@ -134,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567762078615</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="加入了第二个神经网络，加入管理员功能">
+      <created>1567891618994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567891618994</updated>
+    </task>
+    <task id="LOCAL-00006" summary="加入了第二个神经网络，加入管理员功能">
+      <created>1567891741427</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567891741427</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +220,7 @@
     <MESSAGE value="upload and save image added" />
     <MESSAGE value="upload page and record page added&#10;but not connected with user authentication yet" />
     <MESSAGE value="url upload added" />
-    <option name="LAST_COMMIT_MESSAGE" value="url upload added" />
+    <MESSAGE value="加入了第二个神经网络，加入管理员功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入了第二个神经网络，加入管理员功能" />
   </component>
 </project>
