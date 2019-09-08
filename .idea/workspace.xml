@@ -1,147 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="date filter added">
-      <change afterPath="$PROJECT_DIR$/static/media/2_9jrTE0L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/2_ulgtIAU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_2_9jrTE0L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out1_2_ulgtIAU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_2_9jrTE0L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/out2_2_ulgtIAU.png" afterDir="false" />
+    <list default="true" id="a8c1c59c-a3c4-4fb0-bb64-29a088baca38" name="Default Changelist" comment="bug resolved">
+      <change afterPath="$PROJECT_DIR$/static/media/2_phWpaza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_2_phWpaza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out1_5-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_2_phWpaza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/out2_5-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FinalTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalTask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepImage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepImage/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_style_transfer/c/scream.ckpt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_style_transfer/c/udnie.ckpt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_style_transfer/c/wave.ckpt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/frozen_inference_graph.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pipeline.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/saved_model/saved_model.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/flexible_grid_anchor_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/flexible_grid_anchor_generator_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/grid_anchor_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/grid_anchor_generator_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/multiple_grid_anchor_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/multiple_grid_anchor_generator_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/multiscale_grid_anchor_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/multiscale_grid_anchor_generator_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/faster_rcnn_box_coder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/faster_rcnn_box_coder_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/keypoint_box_coder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/keypoint_box_coder_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/mean_stddev_box_coder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/mean_stddev_box_coder_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/square_box_coder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/square_box_coder_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/dockerfiles/android/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/dockerfiles/android/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/eval_util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/eval_util_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/export_inference_graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/export_tflite_ssd_graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/export_tflite_ssd_graph_lib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/export_tflite_ssd_graph_lib_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/exporter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/exporter_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/legacy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/legacy/eval.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/legacy/evaluator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/legacy/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/legacy/trainer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/legacy/trainer_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/model_hparams.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/model_lib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/model_lib_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/model_lib_v2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/model_lib_v2_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/model_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/model_tpu_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/embedded_ssd_mobilenet_v1_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/embedded_ssd_mobilenet_v1_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_resnet_v2_keras_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_resnet_v2_keras_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_v2_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_v2_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_mobilenet_v1_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_mobilenet_v1_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_nas_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_nas_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_pnas_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_pnas_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_resnet_v1_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_resnet_v1_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/feature_map_generators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/feature_map_generators_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/base_models/original_mobilenet_v2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/inception_resnet_v2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/inception_resnet_v2_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/mobilenet_v1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/mobilenet_v1_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/mobilenet_v2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/mobilenet_v2_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/model_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/resnet_v1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/resnet_v1_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/keras_models/test_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_inception_v2_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_inception_v2_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_inception_v3_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_inception_v3_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_fpn_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_fpn_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_fpn_keras_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_keras_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_ppn_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_ppn_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v2_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v2_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v2_fpn_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v2_fpn_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v2_fpn_keras_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v2_keras_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_pnasnet_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_pnasnet_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_resnet_v1_fpn_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_resnet_v1_fpn_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_resnet_v1_fpn_feature_extractor_testbase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_resnet_v1_fpn_keras_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_resnet_v1_ppn_feature_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_resnet_v1_ppn_feature_extractor_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_resnet_v1_ppn_feature_extractor_testbase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/object_detection_tutorial.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_ckpt/ssd_inception_v2.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_data/pets_examples.record" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image_info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/export_saved_model_tpu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/export_saved_model_tpu_lib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/export_saved_model_tpu_lib_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/faster_rcnn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/ssd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/testdata/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/testdata/faster_rcnn/faster_rcnn_resnet101_atrous_coco.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/testdata/ssd/ssd_pipeline.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/tpu_exporters/utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1-2_KN6EyVi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1-2_u2A2MrU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1.5_TKkpwxK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_kEweVLt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_uUNuxVK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_vASPKfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/12_x1nxTTQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1387134043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/13_OOFsSxA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/13_TuXRZgB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/13_lUSZtYs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/14_G029Msy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/14_uZjMwkb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1567761393.1569898" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1567761681.3791723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1567761976.798145" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_Pvp0uO2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_jtXqrrN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_sI4sI34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1944706447_vgDHxuW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_PGEXeqe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_Rgzg4nj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_VUxNjqS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_mOfD83G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_rC6AEjC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_uJJAKEo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_vyN8Vyc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/1_z2jPi7c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/2_IoZsPTB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/2_Jt65704.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3_BjncYU5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3_O69vT1T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3_ZPxved1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/496a2498t82ac6df39fc9690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/4_5uX5Zsy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/4_oANBr3l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5-2_E1WZ2bz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5-2_l95mgrl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5_emfKxko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/5_ftj44o0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/a2dead214e03b38563b83ea8a1f1fb54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_IXR7nJO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_RY2V9XP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_hhZJh2t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image1_uzON7E5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/image2_0hVSiP1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/input.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/input_pjCSEZD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/item4-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1.5_TKkpwxK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1-2_KN6EyVi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_12_kEweVLt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_12_vASPKfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_12_x1nxTTQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out1_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1387134043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13_OOFsSxA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13_TuXRZgB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_13_lUSZtYs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out1_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_14_G029Msy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_14_uZjMwkb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1567761393.1569898" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1567761681.3791723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1567761976.798145" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_Pvp0uO2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_jtXqrrN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_sI4sI34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_1944706447_vgDHxuW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_3_BjncYU5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_3_O69vT1T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_3_ZPxved1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out1_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_4_5uX5Zsy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_4_oANBr3l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_5-2_E1WZ2bz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_PGEXeqe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_a2dead214e03b38563b83ea8a1f1fb54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image1_hhZJh2t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image1_uzON7E5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_image2_0hVSiP1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_input.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_input_pjCSEZD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_item4-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_rC6AEjC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_uJJAKEo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_vyN8Vyc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out1_z2jPi7c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_1-2_KN6EyVi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_12_kEweVLt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_12_vASPKfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_12_x1nxTTQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out2_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_13_TuXRZgB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_13_lUSZtYs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out2_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_14_uZjMwkb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_1944706447_sI4sI34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_3_BjncYU5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_3_O69vT1T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/out2_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_4_5uX5Zsy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_4_oANBr3l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_5-2_E1WZ2bz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_Jt65704.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_input.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_input_pjCSEZD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out2_item4-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out496a2498t82ac6df39fc9690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out5_emfKxko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out5_ftj44o0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_1-2_u2A2MrU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_12_uUNuxVK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/out_5-2_l95mgrl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/批注_2019-06-14_150214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,9 +266,6 @@
       <workItem from="1567609438742" duration="29566000" />
       <workItem from="1567694883726" duration="21669000" />
       <workItem from="1567891478781" duration="9000" />
-      <workItem from="1567931851669" duration="519000" />
-      <workItem from="1567933155541" duration="632000" />
-      <workItem from="1567934361222" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="DeepImage created">
       <created>1567498647103</created>
@@ -278,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567762078615</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="records deleting bug resolved&#10;username ui added">
+      <created>1567923694874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567923694874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +353,7 @@
     <MESSAGE value="upload and save image added" />
     <MESSAGE value="upload page and record page added&#10;but not connected with user authentication yet" />
     <MESSAGE value="url upload added" />
-    <option name="LAST_COMMIT_MESSAGE" value="url upload added" />
+    <MESSAGE value="records deleting bug resolved&#10;username ui added" />
+    <option name="LAST_COMMIT_MESSAGE" value="records deleting bug resolved&#10;username ui added" />
   </component>
 </project>

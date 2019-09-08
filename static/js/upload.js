@@ -58,9 +58,7 @@ $(function () {
   $(".js-download-photos").click(function(){
     $.ajax({
       type: "POST",　　　　　　　　　　　           　
-      //url: "/upload",
       data: {"fromurl": true, "fileurl": $("#fileurl").val()},
-     // data: $("#fileurl").value,
       dataType: "json",　　　　　　　　　　　　
       success: function(response){　　　　　　　　
         if (response['is_valid']) {

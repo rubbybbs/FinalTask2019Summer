@@ -58,10 +58,6 @@ def logout_view(request):
     return HttpResponseRedirect('/DeepImage/login')
 
 
-def str2datetime(st):
-    return datetime.datetime.strptime(st, "%Y-%m-%d")
-
-
 def records_view(request):
     if not request.user.is_authenticated:
         return HttpResponseRedirect('/DeepImage/login')
