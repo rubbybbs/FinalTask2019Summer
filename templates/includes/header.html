@@ -16,12 +16,14 @@
           <a href="{% url 'upload' %}">Upload</a>
         </li>
           <li>
-          <a href="{% url 'records' %}">Records</a>
+          <a href="{% url 'records' %}">History</a>
         </li>
           <li>
           <a href="{% url 'logout' %}">Logout</a>
           </li>
-
+          <div style="margin-left:700px; margin-top: 15px;">
+              Hello, {{ request.user.username }}!
+          </div>
       </ul>
     </div>
   </div>
